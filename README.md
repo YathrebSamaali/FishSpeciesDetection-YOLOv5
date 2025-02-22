@@ -43,9 +43,21 @@ python train.py --img 640 --batch 16 --epochs 100 --data data.yaml --cfg models/
 ```
 
 
-📊 Monitoring Training with TensorBoard
+## 📊 Monitoring Training with TensorBoard
 
 To monitor the training process, launch TensorBoard to visualize training metrics:
- ``` 
+``` 
 tensorboard --logdir runs/train/fish_detection
 ```
+
+## 🔎 Real-Time Detection
+To perform real-time detection on images or videos, use the following command:
+```
+python detect.py --weights runs/train/fish_detection/weights/best.pt --img 640 --conf 0.4 --source path/to/image_or_video
+
+``` 
+
+## 🖼️ Sample Results
+🎥 Real-Time Detection in Video
+
+📸 Image Detection
