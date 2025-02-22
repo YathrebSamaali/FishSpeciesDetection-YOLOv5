@@ -27,7 +27,7 @@ Detect various fish species in dynamic aquatic environments using **YOLOv5**. Th
 ---
 
 ## 🚀 Installation  
-```bash
+```
 # Clone the repository  
 git clone https://github.com/your-username/FishSpeciesDetection-YOLOv5.git  
 cd FishSpeciesDetection-YOLOv5  
@@ -36,9 +36,9 @@ cd FishSpeciesDetection-YOLOv5
 pip install -r requirements.txt
 ```
 ## 🏋️ Training the Model
-```bash
+
 To train the YOLOv5 model on your custom fish species dataset:  
-```bash
+```
 python train.py --img 640 --batch 16 --epochs 100 --data data.yaml --cfg models/yolov5s.yaml --weights yolov5s.pt --name fish_detection
 ```
 
