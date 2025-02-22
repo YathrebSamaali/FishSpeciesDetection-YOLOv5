@@ -58,6 +58,14 @@ python detect.py --weights runs/train/fish_detection/weights/best.pt --img 640 -
 ``` 
 
 ## 🖼️ Sample Results
-🎥 Real-Time Detection in Video
+## 📸 Image Detection
 
-📸 Image Detection
+You can use the system to detect fish species from images. Below is an example of an image used for testing.
+
+![Fish Detection Image](images/test.png)
+
+## 🎥 Real-Time Detection in Video
+
+The system also works in real-time detection in video streams. Here's an example of a video showing the detection process.
+
+![Fish Detection Video](https://github.com/YathrebSamaali/FishSpeciesDetection-YOLOv5/raw/master/videos/test.mp4)
