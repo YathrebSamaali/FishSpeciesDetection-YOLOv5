@@ -34,19 +34,18 @@ cd FishSpeciesDetection-YOLOv5
 
 # Install dependencies  
 pip install -r requirements.txt
-
-## 🏋️ Training the Model  
+```
+## 🏋️ Training the Model
+```bash
 To train the YOLOv5 model on your custom fish species dataset:  
 ```bash
 python train.py --img 640 --batch 16 --epochs 100 --data data.yaml --cfg models/yolov5s.yaml --weights yolov5s.pt --name fish_detection
-
+```
 
 
 📊 Monitoring Training with TensorBoard
+```bash
 To monitor the training process, launch TensorBoard to visualize training metrics:
-
-bash
-Copy
-Edit
-# Launch TensorBoard  
+ ``` 
 tensorboard --logdir runs/train/fish_detection
+
