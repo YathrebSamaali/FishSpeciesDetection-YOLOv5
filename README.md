@@ -68,4 +68,6 @@ You can use the system to detect fish species from images. Below is an example o
 
 The system also works in real-time detection in video streams. Here's an example of a video showing the detection process.
 
-![Fish Detection Video](https://github.com/YathrebSamaali/FishSpeciesDetection-YOLOv5/raw/master/videos/test.mp4)
+![Fish Detection Video](videos/test.mp4)
+![Fish Detection Video](videos/test_Tilapia.mp4)
+
