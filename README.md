@@ -44,8 +44,8 @@ python train.py --img 640 --batch 16 --epochs 100 --data data.yaml --cfg models/
 
 
 📊 Monitoring Training with TensorBoard
-```bash
+
 To monitor the training process, launch TensorBoard to visualize training metrics:
  ``` 
 tensorboard --logdir runs/train/fish_detection
-
+```
