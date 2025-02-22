@@ -62,7 +62,7 @@ python detect.py --weights runs/train/fish_detection/weights/best.pt --img 640 -
 
 You can use the system to detect fish species from images. Below is an example of an image used for testing.
 
-![Fish Detection Image](images/test.png)
+![Fish Detection Image](images/123.png)
 
 ## 🎥 Real-Time Detection in Video
 
